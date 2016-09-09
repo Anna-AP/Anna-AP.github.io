@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
+        <title>Filtres et Transformations CSS</title>
+    </head>
+
+    <audio id="sound"><source src="sound.mp3" type="audio/mp3"></audio>
+
+    <body>
+
+      <!-- HEADER CONTENT -->
+        <header>
+            <div id="header"><img src="header.png"></div>
+        </header>
+        <nav>
+            <div class="buttonnav" onmouseover="animatecur(0)" >Filtres</div>
+            <div class="buttonnav" onmouseover="animatecur(1)" >Transformations</div>
+        </nav>
+
+        <div id="listcontainer" >
+          <div class="listcontent" onmouseover="animatecur(0)" onmouseout="animateremove()">
+            <a href="">LINK 1</a>
+            <a href="">LINK 2</a>
+            <a href="">LINK 3</a>
+            <a href="">LINK 4</a>
+          </div>
+          <div class="listcontent" onmouseover="animatecur(1)" onmouseout="animateremove()">
+            <a href="transform.html">Introduction</a>
+            <a href="">LINK 2</a>
+            <a href="">LINK 3</a>
+            <a href="">LINK 4</a>
+          </div>
+        </div>
+
+<!-- PAGE CONTENT -->
+
+        <section>
+
+          <!-- POST IT NOTES -->
+          <div id="postit">-finish index<br>-add some style<br>-get sandwhich<br>-find some good music<br>-I don't know</div>
+            <div id="postit2">-sleep<br>-add more style<br>-more sleep<br>-ANIMATIONS!!!<br>-get payed</div>
+
+            <!-- COMPABILITY CHECKERS -->
+
+            <article>
+                <div class="compabilite" >
+                    <img src="icons/chrome.png" alt="chrome" />
+                    <p> -CHROME : -WEBKIT</p>
+                </div>
+                <br>
+                <div class="compabilite" style="padding-left:80px">
+                    <img src="icons/safari.png" alt="safari" />
+                    <p> -SAFARI : -WEBKIT</p>
+                </div>
+                <br>
+                <div class="compabilite" style="padding-left:160px">
+                    <img src="icons/opera.png" alt="opera" />
+                    <p> -OPERA : -WEBKIT</p>
+                </div>
+                <br>
+                <div class="compabilite" style="padding-left:240px">
+                    <img src="icons/firefox.png" alt="firefox" />
+                    <p> -MOZZILA : -MOZ</p>
+                </div>
+                <br>
+                <div class="compabilite" style="padding-left:320px">
+                    <img src="icons/ie.png" alt="internet explorer" />
+                    <p> -INTERNET EXPLORER : -MS</p>
+                </div>
+
+            </article>
+        </section>
+
+        <!-- BACKGROUND -->
+        <div id="page"></div>
+
+        <!-- FOOTER AND SCRIPT LOADER -->
+        <footer>
+            <small>© Copyright 2016, Tous droits r&eacute;serv&eacute;s Solenn, Denis, Mariyame, Anthony, Anna</small>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
