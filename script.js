@@ -1,5 +1,4 @@
 
-var soundTp = document.getElementById("sound");
 
 function animatecur(i) {
   document.getElementsByClassName("listcontent")[i].style.height = "200px" ;
