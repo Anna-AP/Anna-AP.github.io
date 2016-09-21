@@ -9,6 +9,10 @@
     margin: auto;
 }
 
+#attention::before{
+  content:url(http://www.rxlabz.com/simplon/files/icons/dialog-warning.png);
+}
+
 #demo_scale:hover {
     transform:scale(1.5);
     transition: all .6s ease-in;
@@ -43,22 +47,35 @@ span {
     font-weight: bold;
 }
 
-.demo {
-  flex-direction: column;
-}
+
+#attention::before{
+   content:url("http://www.rxlabz.com/simplon/files/icons/dialog-warning.png");
+   padding-right: 20px;
+ }
 
 #demonstration_origin {
   display: flex;
-  justify-content: space-around;
+  width: 60vw ;
+  margin-left: 30vw;
+}
+.demo-origin {
+  width : 30vw;
+  padding : 0 10vw;
 }
 
 #texte1 {
-    margin-left: 20px;
+
 }
 
 #texte2 {
-    margin: 20px 0 ;
-    display: block;
+
+}
+
+#democode {
+  text-align: center;
+  display: block;
+  width: 30vw;
+  margin: 20px 35vw ;
 }
 
 .box {
@@ -98,6 +115,10 @@ button {
     width: 100vw;
     height: 272px;
   }
+}
+
+.texte_bleu {
+ color: #3FBFBF ;
 }
 
 #animtitle {
@@ -158,5 +179,5 @@ footer {
 }
 
 #mark {
-  height: 1120%;
+  height: 1140%;
 }

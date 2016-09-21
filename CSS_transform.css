@@ -10,7 +10,8 @@ footer {
     font-family: Just Another Hand, sans-serif; }
 
 nav {
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 120px; }
   nav div {
     font-family: Just Another Hand, sans-serif;
     font-size: 45px;
@@ -83,19 +84,24 @@ p, li, ul, h1 {
 span {
   font-weight: bold; }
 
-.demo {
-  flex-direction: column; }
+#attention::before {
+  content: url("http://www.rxlabz.com/simplon/files/icons/dialog-warning.png");
+  padding-right: 20px; }
 
 #demonstration_origin {
   display: flex;
-  justify-content: space-around; }
+  width: 60vw;
+  margin-left: 30vw; }
 
-#texte1 {
-  margin-left: 20px; }
+.demo-origin {
+  width: 30vw;
+  padding: 0 10vw; }
 
-#texte2 {
-  margin: 20px 0;
-  display: block; }
+#democode {
+  text-align: center;
+  display: block;
+  width: 30vw;
+  margin: 20px 35vw; }
 
 .box {
   background: lightblue;
@@ -128,6 +134,9 @@ button {
   #header img {
     width: 100vw;
     height: 272px; }
+
+.texte_bleu {
+  color: #3FBFBF; }
 
 #animtitle {
   position: absolute;
@@ -183,6 +192,11 @@ footer {
   margin-top: 60px; }
 
 #mark {
-  height: 1120%; }
+  height: 1140%; }
+
+  #attention::before{
+    content:url(http://www.rxlabz.com/simplon/files/icons/dialog-warning.png);
+  }
+
 
 /*# sourceMappingURL=CSS_transform.css.map */
